@@ -1,0 +1,55 @@
+matiere;devoir_contenu;devoir_date;partiel_contenu;partiel_date;projet_contenu;projet_date
+statistiques;None;None;None;None;None;None
+semantique;None;None;None;None;None;None
+lexicologie;None;None;questions de cours (voir pdf sur github) et bouts de codes à compléter;mardi 15 décembre;None;None
+modelisation;None;None;None ;None;"1) Choisir un corpus avec une langue de votre choix (française ou anglaise) et faire une petite description sur ce corpus. 
+2) Utiliser l’outil Termostat pour l’extraction et l’étiquetage morpho-syntaxique des termes présents dans le texte.
+Rappel du lien Termostat : http://termostat.ling.umontreal.ca/index.php
+3) Écrire un programme python utilisant le module nltk permettant l’étiquetage morpho-syntaxique du texte. Afficher à chaque fois le résultat sous forme d’un arbre.
+4) Déterminer les différentes propositions atomiques (concept, lien, concept) dans le texte, en se basant sur les résultats de la question 3). Le résultat est un tableau sous la forme suivante :
+Concept - Lien - Concept
+5) Représenter les propositions atomiques sous forme d’un réseau sémantique en utilisant l’outil CmapTools.
+6) Utiliser Protégé pour construire l’ontologie associée (cette ontologie doit contenir les différents concepts, relations, individus, etc.)
+7) Question bonus : utiliser l’outil CoGui pour construire le graphe conceptuel associé.
+8) Utiliser le logiciel Protégé pour créer et exécuter les requêtes suivantes avec SPARQL : 
+a)  Quels sont les concepts de l’ontologie ? 
+b)  Quelles sont les ObjectProperties ? 
+c)  Quelles sont les DataProperties ? 
+d)  Quelles les instances d’un concept (choisir un concept parmi ceux de votre  ontologie) ? 
+e)  Quelles sont les concepts qui commencent par la lettre ‘A’ ?  
+Vous devez rendre tout le travail dans un dossier compressé (en .zip ou .rar). Le dossier compressé est à rendre par mail et qu’il doit contenir : 
+- Un compte rendu sous format pdf contenant toutes les réponses aux questions (mettre des captures d’écran pour chaque réponse) 
+-  Le script python (.py) 
+-  La carte conceptuelle générée par CmapTools 
+-  Le fichier owl de l’ontologie  -  Le corpus  
+
+";4 janvier à 18h
+langages de script;None;None;None;None;;8 janvier
+fouilles de texte;None;None;None;None;None;None
+calculabilite;"travail à
+télécharger dans une archive à votre nom à l'url: https://mycore.core-cloud.net/index.php/s/EV6tIiBE3fGxv5i
+accès avec le mot de passe: KalQ_2020
+
+compléterez votre code pour :
+
+a) le mentionner dans les pré- et post- assertions que des noms de
+variables faisant référence aux arguments initalement
+présents sur la bande de la machine de Turing à son démarrage, par ex.
+""a0"" et ""a1"", puisque nous faisons l'hypothèse
+qu'il ne peut y avoir qu'un ou 2 nombres entiers constituant les
+arguments initiaux.
+
+b) Limiter au maximum l'utilisation de constantes numériques explicites
+dans les pré- et post- assertions.
+
+c) associer aux différentes séquences et sous-séquences de batons
+présentes sur la bande une sémantique,
+correspondant à des variables typées en complément des variables
+représentant les arguments initiaux.   (voir mail pour détails!)";28 décembre;None;None;;
+reseaux de neurones;None;None;None;None;;
+documents structures;None;None;None;None;"L’objectif de ce projet est de réaliser une chaîne de traitement pour la publication de documents en ligne. À partir de documents qui vous seront fournis, vous allez devoir proposer un site web pour présenter le contenu de ces documents et interagir avec.
+Deux grandes étapes seront mises en œuvre.
+La première étape consistera à transformer les documents au format OpenDocument en document XML selon le standard de la Text Encoding Initiative (TEI). Pour cela, son schéma vous sera communiqué afin de vous permettre de valider la structure. De plus, un Schematron vous permettra de respecter l’encodage attendu de certaines métadonnées.
+Une fois cette étape terminée, les documents seront stockés dans une base de données XML (eXist- db). À partir de celle-ci, vous allez devoir réaliser un site internet à l’aide de xquery et xslt. Sur ce site seront présentées trois interfaces : une pour la recherche d’informations dans les documents, une autre pour afficher vos documents mis en page et finalement une page pour présenter le projet.
+";10 janvier 23:59
+java;None;None;None;None;compléter le package bibliothèque de son GitHub, faire tous les tests + rajouter les méthodes si besoin;janvier (pas sûr)
